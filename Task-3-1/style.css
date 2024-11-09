@@ -1,0 +1,119 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: #14247D;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+}
+
+.header nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+}
+.header nav a:hover {
+    color: rgb(148, 150, 152);
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+}
+.login-section {
+    width: 20%;
+    padding-right: 20px;
+}
+
+.login-section input { 
+    width: 100%;
+    padding: 10px;
+    margin: 2px 0;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+}       
+
+.login-section button {
+    width: 50%;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: #006600;
+    color: #DDD;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-section button:hover {
+    background-color: #09b009;
+}
+
+.login-section a {
+    color: #0772dc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-section a:hover {
+    color: #14247D;
+}
+
+.news-section{
+    width: 55%;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.news-item { 
+    margin-bottom: 20px;
+}
+
+.news-item h2 {
+    color: #3D5DA6;
+}
+.news-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.news-item p {
+    color: #333;
+}
+.news-item a {
+    color: #0772dc;
+    text-decoration: none;
+}
+.news-item a:hover {
+    color: #14247D;
+}
+
+.table-section { 
+    width: 25%;
+}
+
+.table-section table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+.table-section th, .table-section td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+.table-section th {
+    background-color: #003366;
+    color: white;
+}
+.highlight {
+    background-color: #98FB98;
+}
+.lowlight {
+    background-color: #FFC0CB;
+}
